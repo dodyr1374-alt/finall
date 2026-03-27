@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+/* 120a1f */
+/* 2a1742 */
+:root{
+    --mof-color:#b36eaf;
+}
+body{
+    background:radial-gradient(circle at center,#361942,rgb(19, 6, 24));
+    color: #ede7ff;
+    transition: background 1s ease;
+   
+    
+}
+
+.dark{
+    background: rgb(180, 179, 179);
+    color: #361942;
+}
+
+
+header{
+    height: 100vh;
+}
+.mof{
+    color: var(--mof-color);
+   
+}
+h1{
+    font-size: 40px;
+}
+.text i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.text button{
+    background-color: var(--mof-color);
+    border-radius: 20px;
+    color: #ede7ff;
+   box-shadow: 5px 5px 10px var(--mof-color);
+}
+span{
+     text-shadow:5px 5px 10px var(--mof-color) ;
+}
+.navbar .container a:hover{
+    border-bottom:2px solid var(--mof-color);
+    color: #361942;
+}
+.img img{
+    width: 50%;
+    margin-left: 60PX;
+}
+/* about us */
+/* section{
+    height: 55vh;
+   
+} */
+.text2 button{
+    background-color: var(--mof-color);
+    border-radius: 20px;
+    color: #ede7ff;
+   box-shadow: 5px 5px 10px var(--mof-color);
+}
+.card{
+    background-color: var(--mof-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+     box-shadow: 5px 5px 10px var(--mof-color);
+   /* flex-direction: column;
+   gap: 10px; */
+}
+.card button{
+    background-color: #361942;
+    color: #ede7ff;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #361942;
+      
+}
+.mar{
+    margin-bottom: 40px;
+}
+.cont img {
+    border-radius: 30px;
+    width: 100%;
+    box-shadow:5px 5px 10px #512863;
+}
+.cont a{
+    color: var(--mof-color);
+    text-shadow: 5px 5px 5px var(--mof-color);
+}
+
+.mars .mar{
+    margin-top: 60px;
+}
+ul{
+    list-style-type: none;
+}
+.validation button{
+    padding: 10px;
+}
+.cardo {
+width: 350px;
+background-color: var(--mof-color);
+margin: auto;
+padding: 15px;
+ box-shadow:5px 5px 10px #512863;
+border-radius: 8px;
+
+}
+form textarea,input,button{
+    width: 100%;
+    height: 20%;
+    background-color: #361942;
+    border-radius: 10px;
+    color: #ede7ff;
+}
+footer p{
+    margin-top: 40px;
+}
+.services .card{
+    transition: all ease 0.4s;
+}
+.services .container .card:hover{
+    transform: scale(1.1);
+}
+.mov{
+    color: #361942;
+    font-size: 20px;
+}
+.lates img{
+    transition: all ease 0.4s;
+}
+.lates img:hover{
+    transform: scale(1.1);
+}
+ section{
+    padding-top: 200px; 
+ }
